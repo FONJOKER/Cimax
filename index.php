@@ -1,9 +1,6 @@
 <?php
 
-// hola
 session_start();
-var_dump($_SESSION);
-
 if(isset($_SESSION["usuario"]) && $_SESSION["usuario"]["tipo"] == "administrador")
 {
     // echo "<script>
