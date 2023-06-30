@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+// Pruebas
 if(isset($_SESSION["usuario"]) && $_SESSION["usuario"]["tipo"] == "administrador")
 {
     // echo "<script>
